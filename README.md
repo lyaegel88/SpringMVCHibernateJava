@@ -7,7 +7,7 @@ There are some random items in here that I was playing around with, such as meth
 in the ProductController and the Person classes, that can be ignored. However, feel free to test 
 them yourself in the browser. 
 ## MySQL Docker Image and Setup
-To get this project to work, download a Docker MySQL Image (version 5.6) locally and run the following commands in a bash terminal:
+To get this project to work, download a Docker MySQL Image (version 5.6) locally by running the following commands in a bash terminal:
 ```
 docker run -p 3306:3306 --name lukes-mysql-2 -e MYSQL_ROOT_PASSWORD=admin123 -d mysql:5.6
 ```
@@ -29,9 +29,10 @@ Don't worry about creating the tables as Hibernate is configured (in this projec
 drop them on shutdown.
 
 ## IntelliJ and Tomcat
-I was using **IntelliJ** for this project and so it is best to import this as a Maven project and 
+I was using **IntelliJ - Ultimate Edition** for this project and so it is best to import this as a Maven project and 
 configure a Tomcat Server (version 8+ - using 8.5.43 in this case) using this IDEA. The URL for the Tomcat
 Server should be "http://localhost:8080/Lukes_SpringMVC_war_exploded/" when configured as this is where the AngularJS
-app will ping the REST endpoints for data. 
+app will ping the REST endpoints for data. I will not list details on how to configure the Tomcat Server BUT here is
+a nice article on how to add one for a Spring MVC Project - **See Steps 21 and on** once the project has been imported.
 
 

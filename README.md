@@ -33,6 +33,7 @@ I was using **IntelliJ - Ultimate Edition** for this project and so it is best t
 configure a Tomcat Server (version 8+ - using 8.5.43 in this case) using this IDEA. The URL for the Tomcat
 Server should be "http://localhost:8080/Lukes_SpringMVC_war_exploded/" when configured as this is where the AngularJS
 app will ping the REST endpoints for data. I will not list details on how to configure the Tomcat Server BUT here is
-a nice article on how to add one for a Spring MVC Project - **See Steps 21 and on** once the project has been imported.
+a nice article on how to add one for a Spring MVC Project 
+(https://medium.com/@yuntianhe/create-a-web-project-with-maven-spring-mvc-b859503f74d7). **See Steps 21 and on** once the project has been imported.
 
 
